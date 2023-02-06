@@ -5,12 +5,9 @@ for t in range (1, T + 1):
     cnt_lst = []
     for k in lst:
         cnt = 0
-        if N % k == 0:
-            while True:
-                N = N // k
-                cnt += 1
-                if N % k != 0:
-                    break
+        while N % k == 0:
+            N = N // k
+            cnt += 1
         cnt_lst.append(cnt)
 
-    print(f'#{t} {" ".join(map(str, cnt_lst))}')
+    print(f'#{t}', *cnt_lst)

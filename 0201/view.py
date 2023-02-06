@@ -6,14 +6,9 @@ for T in range(1,4):
     lst = list(map(int, input().split()))
     cnt = 0
     for i in range(2, N - 2):
-        top = lst[i]                              
-        lst_low = lst[i-2:i+3]
-        del lst_low[2]
-        sec = max(lst_low)
-        if top - sec > 0:
-            cnt += (top - sec)
-        else:
-            continue
-
-
+        if lst[i] > lst[i-1] and lst[i] > lst[i-2]:
+            if lst[i] > lst[i+1] and lst[i] > lst[i+2]:
+                top = lst[i]                              
+                sec = max(lst[i-2],lst[i-1],lst[i+1],lst[i+2])
+                cnt += (top - sec)
     print(f'#{T} {cnt}')
