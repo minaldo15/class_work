@@ -17,11 +17,17 @@ for n in range(N):
         else:
             K = num - 1
         for i in range(K + 1):
-            if lst[num-1-i] == 0 and lst[num-1+i] == 0:
-                lst[num-1-i] = 1
-                lst[num-1+i] = 1
-            else:
-                if lst[num-1-i] == 1 and lst[num-1+i] == 1:
+            if lst[num-1-i] == lst[num-1+i]:
+                if lst[num-1-i] == 0:
+                    lst[num-1-i] = 1
+                    lst[num-1+i] = 1
+                else:
                     lst[num-1-i] = 0
                     lst[num-1+i] = 0
-print(*lst)
+            else:
+                break
+if len(lst) > 20:
+    for i in range(0, len(lst), 20):
+        print(*lst[i:i + 20])
+else: 
+    print(*lst)
