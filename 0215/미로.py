@@ -2,17 +2,18 @@ import sys
 sys.stdin = open('input.txt', 'r')
 
 def dfs(si, sj):
-    stk = [(si, sj)]  # 필요한 자료형, 플래그, 변수 등 선언
+    stk = []  # 필요한 자료형, 플래그, 변수 등 선언
     v[si][sj] = 1  # 초기 위치 처리
     ci, cj = si, sj  # 기준점 저장
 
     while True:
         # 4/8/연결된 링크... 범위 내/미방문/'1'아니면 탐색
-        for di, dj in ((-1, 0), (1, 0), (0, -1), (0, 1)):
+        for di, dj in ((1, 0), (0, 1), (-1, 0), (0, -1)):
             ni, nj = ci + di, cj + dj  # 다음 좌표 계산
             if 0 <= ni < N and 0 <= nj < N and v[ni][nj] == 0 and arr[ni][nj] != '1':
-                ci, cj = ni, nj
                 stk.append((ci, cj))
+
+                ci, cj = ni, nj
                 v[ci][cj] = 1
                 break
         else:
