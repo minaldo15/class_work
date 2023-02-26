@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d0441d7-a7f3-4bfb-99bb-62158bba4634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/0216/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/.idea/0216.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/계산기2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/배열 최소 합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/배열 최소 합2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/부분집합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/부분집합의 합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/퀵 정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0216/토너먼트 카드게임.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/.idea/0217.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/계산기3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/고대 유적.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/백만장자.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/쇠막대기자르기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/오목판정.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/오목판정2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/우주선착륙2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/원재의 메모리 복구.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/자기 방으로 돌아가기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0217/재미있는 오셀로 게임.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/.idea/0220.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/암호생성기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/연결 요소의 개수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/피자굽기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0220/회전.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/.idea/0221.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/Contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/공통조상.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/너비우선탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/노드의 거리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/농작물 수확하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/미로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/미로1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/미로의 거리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/민석이의 과제 체크하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/세제곱근.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0221/최대 성적표 만들기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0215/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/0215/input.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2MGaj468z5UFe5CgsVji1YVrfSu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d0441d7-a7f3-4bfb-99bb-62158bba4634" name="Default Changelist" comment="" />
+      <created>1677396506841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677396506841</updated>
+    </task>
+    <servers />
+  </component>
+</project>
