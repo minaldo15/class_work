@@ -6,7 +6,7 @@ for t in range(1, T + 1):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(N)]
     max = 0
-    ans = N ** 2
+    # ans = N ** 2
     for i in range(N):
         for j in range(N):
             cnt = 0
@@ -22,9 +22,12 @@ for t in range(1, T + 1):
                             break
                 else:
                     break
-            if cnt >= max:
+            if cnt > max:
                 max = cnt
-                if ans > x - cnt:
-                    ans = x - cnt
+                ans = x - cnt
+            if max > 0:
+                if cnt == max:
+                    if ans > x - cnt:
+                        ans = x - cnt
 
     print(f'#{t} {ans} {max + 1}')
