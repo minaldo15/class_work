@@ -8,7 +8,7 @@ def dfs(si, sj):
 
     while True:
         # 4/8/연결된 링크... 범위 내/미방문/'1'아니면 탐색
-        for di, dj in ((-1, 0), (1, 0), (0, -1), (0, 1)):
+        for di, dj in ((1, 0), (0, 1), (-1, 0), (0, -1)):
             ni, nj = ci + di, cj + dj  # 다음 좌표 계산
             if 0 <= ni < N and 0 <= nj < N and v[ni][nj] == 0 and arr[ni][nj] != '1':
                 stk.append((ci, cj))
