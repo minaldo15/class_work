@@ -1,6 +1,5 @@
 import sys
 sys.stdin = open('input.txt', 'r')
-
 def makeint(a):
     if a == 'A':
         return 10
@@ -14,6 +13,7 @@ def makeint(a):
         return 14
     elif a == 'F':
         return 15
+
 
 T = int(input())
 for tc in range(1, T + 1):
