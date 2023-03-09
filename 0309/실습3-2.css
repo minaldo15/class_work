@@ -1,0 +1,102 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.warning{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 70px;
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  border: 5px solid white;
+  justify-content: center;
+}
+
+.title{
+  width: 600px;
+  height: 80px;
+  background-color: white;
+  font-size: 50px;
+  font-weight: 700;
+  border: 5px solid white;
+  border-bottom: 1px solid black;
+}
+
+
+.loginbox{
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-evenly;
+  background-color: white;
+  border: 1px solid rgb(156, 155, 155);
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.smallbox1{
+  display: flex;
+  height: 100px;
+  width: 600px;
+  font-size: 30px;
+  border-bottom: 2px solid rgb(0, 60, 255);
+  justify-content: center;
+}
+
+
+.smallbox2{
+  width: 539px;
+  height: 40px;
+  border: 15px solid white;
+  font-weight: 500;
+  align-self: center;
+}
+
+#loginId {
+  width: 539px;
+  height: 30px;
+  margin: 10px;
+}
+
+#loginPw {
+  width: 539px;
+  height: 30px;
+  margin: 10px;
+}
+
+.smallbox4{
+  width: 539px;
+  height: 40px;
+  border: 15px solid white;
+  font-weight: 500;
+  align-self: center;
+}
+
+.smallbox5{
+  width: 539px;
+  height: 40px;
+  border: 15px solid white;
+  font-weight: 500;
+}
+
+#for{
+  color:rgb(0, 60, 255);
+  font-weight: 400;
+  margin-left: 200px;
+}
+
+#sign{
+  width: 539px;
+  height: 40px;
+  margin-left: 40px;
+  background-color: rgb(48, 133, 31);
+  color: white
+}
+
+.item {
+  margin: auto;
+}
