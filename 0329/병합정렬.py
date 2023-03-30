@@ -1,22 +1,31 @@
-def msort(m):
-    if len(m) == 1:
-        return m
-    left = []
-    right = []
-    middle = len(m)//2
-    for x in range(m[0:middle+1]):
-        left.append(m[x])
-    for x in range(m[middle:]):
-        right.append(m[x])
+def msort(lst):
+    global cnt
+    if len(lst) < 2:
+        return lst
+    m = len(lst) // 2
+    left = msort(lst[:m])
+    right = msort(lst[m:])
 
-    left = msort(left)
-    right = msort(right)
-    return
+    if left[-1] > right[-1]:
+        cnt += 1
 
+    ret = []
+    l = r = 0
+    while l < len(left) and r < len(right):
+        if left[l] < right[r]:
+            ret.append(left[l])
+            l += 1
+        else:
+            ret.append(right[r])
+            r += 1
+
+    ret += left[l:] + right[r:]
+    return ret
 
 T = int(input())
-for tc in range(1, T+1):
+for tc in range(1, T + 1):
     N = int(input())
-    arr = list(map(int, input().split()))
-
-    msort(arr)
+    lst = list(map(int, input().split()))
+    cnt = 0
+    lst = msort(lst)
+    print(f'#{tc} {lst[N // 2]} {cnt}')

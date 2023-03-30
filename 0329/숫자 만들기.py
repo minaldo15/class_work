@@ -15,15 +15,14 @@ def cal(a,b,n):
 def dfs(i, cnt):
     global MIN, MAX, ans
     alst = lst[:]
-    if ans < cnt:
-        return
+
     if i==4:
         for l in range(N-1):
             alst[l+1] = cal(alst[l], alst[l+1], op[l])
         cnt = alst[-1]
         MIN = min(MIN, cnt)
         MAX = max(MAX, cnt)
-        ans = MAX - MIN
+        return
     for j in range(i, 4):
         op[i],op[j] = op[j],op[i]
         dfs(i+1, cnt)
@@ -37,11 +36,10 @@ for tc in range(1, T + 1):
     op = [] # 0:+, 1:-, 2:*, 3:/
     MAX = -100000000
     MIN = 100000000
-    ans = -100000000
     for i in range(4):
         for _ in range(num_op[i]):
             op.append(i)
     dfs(0, 0)
 
-    print(f'#{tc} {ans}')
+    print(f'#{tc} {MAX - MIN}')
 
