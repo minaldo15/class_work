@@ -47,7 +47,7 @@ while time < C:
     for i in range(1, M):
         # 현재 상어가 앞에 있는 상어와 위치가 같다면
         if (sharks[i][0], sharks[i][1]) == (sharks[i-1][0], sharks[i-1][1]):
-            sharks[i][4] += sharks[i-1][4]  # 크기만 더해줌 방향은 어차피 그대로
+            # sharks[i][4] += sharks[i-1][4]  # 먹은 상어 크기 그대로였음
             sharks[i-1][:] = [0,0,0,0,0]    # 먹힌상어는 0처리
 
 print(cnt)
